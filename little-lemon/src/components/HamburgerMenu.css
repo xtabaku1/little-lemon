@@ -1,0 +1,49 @@
+/* HamburgerMenu.css */
+
+.sidebar {
+  width: 200px;
+  background-color: #f9f9f9;
+  transition: transform 0.3s;
+  transform: translateX(-110%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  overflow-y: auto;
+  z-index: 1000;
+  padding: 5%;
+}
+
+.open .sidebar {
+  transform: translateX(0);
+}
+
+.menu-toggle {
+  cursor: pointer;
+  padding: 10px;
+  z-index: 1001;
+}
+
+@media screen and (max-width: 768px) {
+  .hamburger-menu {
+    flex-direction: column;
+  }
+
+  .nav {
+    display: flex;
+  }
+
+  .nav.open {
+    display: block;
+  }
+
+  .nav ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav li {
+    display: block;
+    margin-bottom: 1em;
+  }
+}

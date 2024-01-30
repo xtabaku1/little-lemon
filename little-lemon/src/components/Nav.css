@@ -1,0 +1,60 @@
+/* Nav.css */
+
+.nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  display: inline-block;
+  margin-right: 2em;
+}
+
+.nav a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: #555;
+}
+
+/* Mobile View */
+@media only screen and (max-width: 768px) {
+  .mobile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hamburger-menu {
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .nav.open {
+    display: block;
+  }
+
+  .nav ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav li {
+    display: block;
+    margin-bottom: 1em;
+  }
+}

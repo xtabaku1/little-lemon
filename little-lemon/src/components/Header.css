@@ -1,0 +1,22 @@
+.mobile-header {
+  display: none;
+}
+.desktop-header {
+  display: flex;
+  width: 100%;
+}
+.desktop-header img {
+  margin-right: auto;
+}
+@media only screen and (max-width: 768px) {
+  .header {
+    width: 100%;
+  }
+  .desktop-header {
+    display: none;
+  }
+  .mobile-header {
+    display: flex;
+    gap: 5rem;
+  }
+}
