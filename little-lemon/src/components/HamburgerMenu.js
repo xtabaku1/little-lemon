@@ -1,8 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./HamburgerMenu.css";
 import Nav from "./Nav";
-import HamburgerIcon from "./../images/hamburger-menu.svg"; // Import your SVG icon here
-
+import HamburgerIcon from "./../images/hamburger-menu.svg";
 const HamburgerMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
   const sidebarRef = useRef(null);

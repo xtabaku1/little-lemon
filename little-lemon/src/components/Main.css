@@ -70,17 +70,6 @@
   margin-top: 0 !important;
 }
 
-.button {
-  color: black;
-  background-color: #eccc31;
-  border: none;
-  border-radius: 1em;
-  width: 10em;
-  height: 2.5em;
-  font-size: 0.8em;
-  font-weight: bold;
-}
-
 .title {
   color: #f4ce14;
   font-family: "Markazi Text", sans-serif;
@@ -104,7 +93,7 @@
 .article {
   color: #fff;
   font-family: "Karla", sans-serif;
-  font-size: 18px;
+  font-size: medium;
   font-style: normal;
   font-weight: 500;
   line-height: normal;

@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
+  padding: 2%;
 }
 
 .header {
@@ -12,6 +13,7 @@
   align-items: center;
   background-color: white;
   color: #fff;
+  padding-bottom: 2%;
 }
 
 .header img {
@@ -50,12 +52,50 @@
   background-color: #eccc31;
   border: none;
   border-radius: 1em;
-  width: 8em;
-  height: 3em;
-  font-size: large;
+  font-size: medium;
+  font-weight: normal;
+  height: 2rem;
+  width: 8rem;
 }
+.content,
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+.content {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.form-group {
+  margin-bottom: 20%;
+}
+
+label {
+  display: block;
+  margin-bottom: 5%;
+}
+input,
+select {
+  width: 100%;
+}
+
 @media screen and (max-width: 768px) {
+  .header {
+    width: 100%;
+  }
   .footer {
     width: 100%;
+  }
+  .container {
+    align-items: start;
+  }
+  form,
+  .content {
+    width: 100%;
+    margin: 0;
   }
 }

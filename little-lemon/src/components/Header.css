@@ -17,6 +17,11 @@
   }
   .mobile-header {
     display: flex;
-    gap: 5rem;
+    width: 100%;
+    justify-content: flex-start;
+    gap: auto;
+  }
+  .hamburger-menu {
+    width: 35%;
   }
 }

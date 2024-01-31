@@ -6,7 +6,7 @@ import bruschetta from "./../images/bruschetta.jpg";
 import dessert from "./../images/dessert.jpg";
 import restaurant from "./../images/restaurant.jpg";
 import delivery from "./../images/delivery.jpg";
-
+import { Link } from "react-router-dom";
 const Main = () => {
   return (
     <main className="main">
@@ -19,7 +19,9 @@ const Main = () => {
             We are a family owned Mediterranean restaurant, focused on
             traditional recipes served with a modern twist.
           </p>
-          <button className="button">Reserve a Table</button>
+          <Link to="/booking">
+            <button className="button">Reserve a Table</button>
+          </Link>{" "}
         </div>
         {/* Column 2 */}
         <div>
